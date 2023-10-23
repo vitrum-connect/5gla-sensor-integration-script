@@ -1,7 +1,7 @@
 import logging
 import requests
 
-from app.config.config_manager import ConfigManager
+from src.config.config_manager import ConfigManager
 
 
 class ApiIntegrationService:
