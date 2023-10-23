@@ -1,0 +1,6 @@
+version: 1.0.0
+api_url: https://api.5gla.de/api/v1
+api_version_endpoint: /info/version
+api_sentekt_data_logging_endpoint: /data-logging/sentek
+max_retries: 3
+retry_delay_seconds: 5
