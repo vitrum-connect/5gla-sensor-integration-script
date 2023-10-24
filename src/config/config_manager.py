@@ -5,7 +5,23 @@ import yaml
 
 
 class ConfigManager:
+    """
 
+    ConfigManager
+
+    This class provides methods for managing configuration data.
+
+    Attributes:
+        _config_path (Path): The path to the configuration file.
+        _config (dict): The configuration data loaded from the configuration file.
+
+    Methods:
+        __init__(): Initializes the ConfigManager object.
+        _load_config(): Loads the configuration from a YAML file.
+        get(key): Retrieves the value of a configuration key.
+        get_env(key): Retrieves the value of an environment variable.
+
+    """
     def __init__(self):
         self._config_path = Path(__file__).parent / 'config' / 'config.yaml'
         self._config = self._load_config()
