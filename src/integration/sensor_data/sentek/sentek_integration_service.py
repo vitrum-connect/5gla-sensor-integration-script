@@ -4,8 +4,8 @@ from dataclasses import asdict
 
 from src.config.config_manager import ConfigManager
 from src.integration.sensor_data.common_sensor_integration_service import CommonSensorDataIntegrationService
-from src.integration.sensor_data.sentek.dataclass.reading import Reading
-from src.integration.sensor_data.sentek.dataclass.sentek_data_logging_request import SentekDataLoggingRequest
+from src.integration.sensor_data.sentek.dataclasses.reading import Reading
+from src.integration.sensor_data.sentek.dataclasses.sentek_data_logging_request import SentekDataLoggingRequest
 
 
 class SentekIntegrationService:
