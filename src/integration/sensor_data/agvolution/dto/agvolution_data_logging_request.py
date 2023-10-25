@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from src.integration.sensor_data.agvolution.dataclasses.series_entry import SeriesEntry
+from src.integration.sensor_data.agvolution.dto.series_entry import SeriesEntry
 
 
 @dataclass

@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import List
 
-from src.integration.sensor_data.agvolution.dataclasses.timeseries_value import TimeseriesValue
+from src.integration.sensor_data.agvolution.dto.timeseries_value import TimeseriesValue
 
 
 @dataclass

@@ -1,11 +1,11 @@
 import logging
 
 from src.config.config_manager import ConfigManager
-from src.integration.sensor_data.agvolution.dataclasses.agvolution_data_logging_request import \
+from src.integration.sensor_data.agvolution.dto.agvolution_data_logging_request import \
     AgvolutionDataLoggingRequest
-from src.integration.sensor_data.agvolution.dataclasses.series_entry import SeriesEntry
-from src.integration.sensor_data.agvolution.dataclasses.timeseries_entry import TimeseriesEntry
-from src.integration.sensor_data.agvolution.dataclasses.timeseries_value import TimeseriesValue
+from src.integration.sensor_data.agvolution.dto.series_entry import SeriesEntry
+from src.integration.sensor_data.agvolution.dto.timeseries_entry import TimeseriesEntry
+from src.integration.sensor_data.agvolution.dto.timeseries_value import TimeseriesValue
 from src.integration.sensor_data.common_sensor_integration_service import CommonSensorDataIntegrationService
 
 

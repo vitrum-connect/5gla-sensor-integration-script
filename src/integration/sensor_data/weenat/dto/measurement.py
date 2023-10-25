@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from src.integration.sensor_data.weenat.dataclasses.measurement_values import MeasurementValues
+from src.integration.sensor_data.weenat.dto.measurement_values import MeasurementValues
 
 
 @dataclass
