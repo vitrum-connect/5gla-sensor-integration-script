@@ -4,9 +4,9 @@ from dataclasses import asdict
 
 from src.config.config_manager import ConfigManager
 from src.integration.sensor_data.common_sensor_integration_service import CommonSensorDataIntegrationService
-from src.integration.sensor_data.weenat.dataclasses.measurement import Measurement
-from src.integration.sensor_data.weenat.dataclasses.measurement_values import MeasurementValues
-from src.integration.sensor_data.weenat.dataclasses.weenat_data_logging_request import WeenatDataLoggingRequest
+from src.integration.sensor_data.weenat.dto.measurement import Measurement
+from src.integration.sensor_data.weenat.dto.measurement_values import MeasurementValues
+from src.integration.sensor_data.weenat.dto.weenat_data_logging_request import WeenatDataLoggingRequest
 
 
 class WeenatIntegrationService:
