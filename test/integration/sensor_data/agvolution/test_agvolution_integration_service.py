@@ -17,5 +17,4 @@ class AgvolutionIntegrationServiceTest(unittest.TestCase):
         # Send sensor data
         api_integration_service = AgvolutionIntegrationService()
         sensor_data = {}
-        # Since the sensor is not existing, the result will be false at the moment
-        self.assertFalse(api_integration_service.send_sensor_data(self.sensor_id, sensor_data))
+        self.assertTrue(api_integration_service.send_sensor_data(self.sensor_id, sensor_data))

@@ -25,9 +25,9 @@ class AgvolutionIntegrationService:
         :type sensor_data: dict
         :return: None
         """
-        self._common_sensor_integration_service.send_sensor_data(self._url(sensor_id),
-                                                                 self._transform_sensor_data_to_request_body(
-                                                                     sensor_data))
+        return self._common_sensor_integration_service.send_sensor_data(self._url(sensor_id),
+                                                                        self._transform_sensor_data_to_request_body(
+                                                                            sensor_data))
 
     def _url(self, sensor_id):
         """
