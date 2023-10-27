@@ -85,15 +85,15 @@ class AgvolutionIntegrationService:
                     aggregate="",
                     values=[
                         TimeseriesValue(
-                            time='2022-01-01T00:00:00.000',
+                            time="2023-03-17T06:41:35.834",
                             value=2.0
                         ),
                         TimeseriesValue(
-                            time="2024-01-01T00:00:00.000Z",
+                            time="2023-03-17T06:41:35.834",
                             value=4.0
                         ),
                         TimeseriesValue(
-                            time="2028-01-01T00:00:00.000Z",
+                            time="2023-03-17T06:41:35.834",
                             value=8.0
                         ),
                     ]
@@ -104,15 +104,15 @@ class AgvolutionIntegrationService:
                     aggregate="",
                     values=[
                         TimeseriesValue(
-                            time='2022-02-01T00:00:00.000',
+                            time="2023-03-17T06:41:35.834",
                             value=2.0
                         ),
                         TimeseriesValue(
-                            time="2024-02-01T00:00:00.000Z",
+                            time="2023-03-17T06:41:35.834",
                             value=4.0
                         ),
                         TimeseriesValue(
-                            time="2028-02-01T00:00:00.000Z",
+                            time="2023-03-17T06:41:35.834",
                             value=8.0
                         ),
                     ]
