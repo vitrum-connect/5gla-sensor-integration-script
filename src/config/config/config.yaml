@@ -1,7 +1,8 @@
 version: 1.0.0
-api_url: https://api.5gla.de/api/v1
+api_url: http://fuf.me:8080/api/v1
 api_version_endpoint: /info/version
 api_sentek_data_logging_endpoint: /device-measurement/sentek
 api_weenat_data_logging_endpoint: /device-measurement/weenat
+device_registration_endpoint: /device
 max_retries: 3
 retry_delay_seconds: 5

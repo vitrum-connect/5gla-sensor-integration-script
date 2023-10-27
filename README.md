@@ -14,4 +14,4 @@ pip install -r requirements.txt
 ```
 
 For Windows you could use Anaconda or Miniconda. For Linux you could use Miniconda. There are several installation
-guides on the internet.
+guides on the internet.in
