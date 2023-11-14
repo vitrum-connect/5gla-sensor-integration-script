@@ -4,5 +4,6 @@ api_version_endpoint: /info/version
 api_agvolution_data_logging_endpoint: /device-measurement/agvolution
 api_sentek_data_logging_endpoint: /device-measurement/sentek
 api_weenat_data_logging_endpoint: /device-measurement/weenat
+device_registration_endpoint: /device
 max_retries: 3
 retry_delay_seconds: 5

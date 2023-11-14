@@ -30,9 +30,9 @@ class WeenatIntegrationService:
         None
 
         """
-        self._common_sensor_integration_service.send_sensor_data(self._url(sensor_id),
-                                                                 self._transform_sensor_data_to_request_body(
-                                                                     sensor_data))
+        return self._common_sensor_integration_service.send_sensor_data(self._url(sensor_id),
+                                                                        self._transform_sensor_data_to_request_body(
+                                                                            sensor_data))
 
     def _url(self, sensor_id):
         """
@@ -89,16 +89,16 @@ class WeenatIntegrationService:
                 8192.0,
                 16384.0,
                 32768.0,
-                65536,
-                131072,
-                262144,
-                524288,
-                1048576,
-                2097152,
-                4194304,
-                8388608,
-                16777216,
-                33554432
+                65536.0,
+                131072.0,
+                262144.0,
+                524288.0,
+                1048576.0,
+                2097152.0,
+                4194304.0,
+                8388608.0,
+                16777216.0,
+                33554432.0
             )
         )
         second_measurement = Measurement(
@@ -118,16 +118,16 @@ class WeenatIntegrationService:
                 8192.0,
                 16384.0,
                 32768.0,
-                65536,
-                131072,
-                262144,
-                524288,
-                1048576,
-                2097152,
-                4194304,
-                8388608,
-                16777216,
-                33554432
+                65536.0,
+                131072.0,
+                262144.0,
+                524288.0,
+                1048576.0,
+                2097152.0,
+                4194304.0,
+                8388608.0,
+                16777216.0,
+                33554432.0
             )
         )
         return [first_measurement, second_measurement]
