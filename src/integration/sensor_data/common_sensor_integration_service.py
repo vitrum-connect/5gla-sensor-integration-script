@@ -41,7 +41,7 @@ class CommonSensorDataIntegrationService:
             'X-API-Key': config_manager.get_env('API_KEY'),
             'Content-Type': 'application/json'
         }
-        url = config_manager.get('api_url') + config_manager.get('device_registration_endpoint')
+        url = config_manager.get_env('API_URL') + config_manager.get('device_registration_endpoint')
         response = requests.post(url=url, headers=headers,
                                  data=RegisterDeviceRequest(manufacturer=manufacturer, id=sensor_id, latitude=latitude,
                                                             longitude=longitude).as_json())

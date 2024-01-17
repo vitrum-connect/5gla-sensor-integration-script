@@ -43,7 +43,7 @@ class WeenatIntegrationService:
         :return: The URL for logging sensor data for the specified sensor.
         :rtype: str
         """
-        return self._config_manager.get('api_url') + self._config_manager.get(
+        return self._config_manager.get_env('API_URL') + self._config_manager.get(
             'api_weenat_data_logging_endpoint') + "/" + sensor_id
 
     def _transform_sensor_data_to_request_body(self, sensor_data):

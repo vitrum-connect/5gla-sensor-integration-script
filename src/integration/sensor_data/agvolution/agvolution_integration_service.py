@@ -40,7 +40,7 @@ class AgvolutionIntegrationService:
         - url (str): The constructed URL for data logging in Agvolution.
 
         """
-        return self._config_manager.get('api_url') + self._config_manager.get(
+        return self._config_manager.get_env('API_URL') + self._config_manager.get(
             'api_agvolution_data_logging_endpoint') + "/" + sensor_id
 
     def _transform_sensor_data_to_request_body(self, sensor_data):
